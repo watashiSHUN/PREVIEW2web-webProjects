@@ -22,6 +22,7 @@ namespace WebApplication1
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             loggerFactory.AddConsole();
+            ClassLibrary1.Class1.shun();
 
             if (env.IsDevelopment())
             {
